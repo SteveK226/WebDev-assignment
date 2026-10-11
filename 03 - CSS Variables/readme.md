@@ -1,0 +1,1 @@
+﻿This lab was about playing with css variables is JS. In fact, CSS variables can be updated with JS meaning that when you update a variable in CSS everywhere in the page that that variable is referenced will update itself.
