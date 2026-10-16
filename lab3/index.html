@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lab 3</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 2rem; }
+    section { margin-bottom: 2rem; }
+    li { margin-bottom: 0.5rem; }
+    .done { text-decoration: line-through; color: gray; }
+    #tasks li { cursor: pointer; }
+  </style>
+  <script src="answer.js" defer></script>
+</head>
+<body>
+  <!-- Exercise 7 and 8 -->
+  <section>
+    <h1>Users</h1>
+    <p id="status">Loading...</p>
+    <ul id="users"></ul>
+  </section>
+
+  <!-- Exercise 10 -->
+  <section>
+    <h1>User Search</h1>
+    <form id="search-form">
+      <label for="search">Search users</label>
+      <input id="search">
+      <button type="submit">Search</button>
+    </form>
+    <p id="search-status"></p>
+    <ul id="results"></ul>
+  </section>
+
+  <!-- Exercise 12 -->
+  <section>
+    <h1>Course Dashboard</h1>
+    <button id="load-dashboard">Load Dashboard</button>
+    <h2>Courses</h2>
+    <ul id="courses"></ul>
+    <h2>Announcements</h2>
+    <ul id="announcements"></ul>
+    <h2>Status</h2>
+    <p id="dashboard-status"></p>
+  </section>
+
+  <!-- Final Challenge: Task Manager -->
+  <section>
+    <h1>Task Manager</h1>
+    <form id="task-form">
+      <label for="task-input">New task</label>
+      <input id="task-input">
+      <button type="submit">Add</button>
+    </form>
+    <label for="task-filter">Show</label>
+    <select id="task-filter">
+      <option value="all">All</option>
+      <option value="todo">Not done</option>
+      <option value="done">Done</option>
+    </select>
+    <p id="task-status"></p>
+    <ul id="tasks"></ul>
+  </section>
+</body>
+</html>
