@@ -1,0 +1,1 @@
+This lab is about A full-window HTML5 canvas drawing app where you click and drag to paint with a rainbow brush that cycles through colors as you move. The brush width continuously grows and shrinks between 1 and 100 pixels, creating a dynamic, calligraphic effect.
