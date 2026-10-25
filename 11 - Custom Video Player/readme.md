@@ -1,0 +1,1 @@
+This lab is a lightweight video player built with vanilla HTML, CSS, and JavaScript. It includes play/pause, a draggable progress bar, volume and playback speed sliders, and skip buttons (-10s / +25s), with controls that auto-hide until you hover.
