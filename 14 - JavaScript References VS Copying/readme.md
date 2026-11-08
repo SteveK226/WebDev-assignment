@@ -1,0 +1,1 @@
+This lab is a small JavaScript demo showing the difference between copying a value and copying a reference. It covers how to properly copy arrays (slice(), concat(), spread, Array.from()) and objects (Object.assign(), JSON.parse(JSON.stringify())), and why these are only shallow copies.
